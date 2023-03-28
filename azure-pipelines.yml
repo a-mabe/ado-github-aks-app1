@@ -22,4 +22,3 @@ stages:
         kubernetesServiceConnection: 'abby-test-connection'
         namespace: 'abby-test'
         manifests: 'manifests/*'
-        imagePullSecrets: $(GHCR)
