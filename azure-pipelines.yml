@@ -22,3 +22,9 @@ stages:
         kubernetesServiceConnection: 'abby-test-connection'
         namespace: 'abby-test'
         manifests: 'manifests/*'
+    - task: KubernetesManifest@0
+      inputs:
+        action: 'delete'
+        kubernetesServiceConnection: 'abby-test-connection'
+        namespace: 'abby-test'
+        manifests: 'manifests/*'
