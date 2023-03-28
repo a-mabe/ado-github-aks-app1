@@ -27,4 +27,4 @@ stages:
         action: 'delete'
         kubernetesServiceConnection: 'abby-test-connection'
         namespace: 'abby-test'
-        manifests: 'manifests/*'
+        arguments: deployment app1nginxaks
